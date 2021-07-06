@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4E0FB5269463AC00388F8B /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E0FB4269463AC00388F8B /* RoundCorners.swift */; };
+		3D4E0FB72694657F00388F8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D4E0FB62694657F00388F8B /* README.md */; };
 		3DB18C6826931C980090CA11 /* DragToCloseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB18C6726931C980090CA11 /* DragToCloseApp.swift */; };
-		3DB18C6A26931C980090CA11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB18C6926931C980090CA11 /* ContentView.swift */; };
 		3DB18C6C26931C9C0090CA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB18C6B26931C9C0090CA11 /* Assets.xcassets */; };
 		3DB18C6F26931C9C0090CA11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB18C6E26931C9C0090CA11 /* Preview Assets.xcassets */; };
+		3DB18C9D2693C2A00090CA11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB18C9C2693C2A00090CA11 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D4E0FB4269463AC00388F8B /* RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		3D4E0FB62694657F00388F8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DB18C6426931C980090CA11 /* DragToClose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragToClose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB18C6726931C980090CA11 /* DragToCloseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragToCloseApp.swift; sourceTree = "<group>"; };
-		3DB18C6926931C980090CA11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DB18C6B26931C9C0090CA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB18C6E26931C9C0090CA11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DB18C7026931C9C0090CA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB18C9C2693C2A00090CA11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 		3DB18C5B26931C980090CA11 = {
 			isa = PBXGroup;
 			children = (
+				3D4E0FB62694657F00388F8B /* README.md */,
 				3DB18C6626931C980090CA11 /* DragToClose */,
 				3DB18C6526931C980090CA11 /* Products */,
 			);
@@ -53,10 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				3DB18C6726931C980090CA11 /* DragToCloseApp.swift */,
-				3DB18C6926931C980090CA11 /* ContentView.swift */,
+				3DB18C9C2693C2A00090CA11 /* ContentView.swift */,
 				3DB18C6B26931C9C0090CA11 /* Assets.xcassets */,
 				3DB18C7026931C9C0090CA11 /* Info.plist */,
 				3DB18C6D26931C9C0090CA11 /* Preview Content */,
+				3D4E0FB4269463AC00388F8B /* RoundCorners.swift */,
 			);
 			path = DragToClose;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4E0FB72694657F00388F8B /* README.md in Resources */,
 				3DB18C6F26931C9C0090CA11 /* Preview Assets.xcassets in Resources */,
 				3DB18C6C26931C9C0090CA11 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB18C6A26931C980090CA11 /* ContentView.swift in Sources */,
+				3DB18C9D2693C2A00090CA11 /* ContentView.swift in Sources */,
 				3DB18C6826931C980090CA11 /* DragToCloseApp.swift in Sources */,
+				3D4E0FB5269463AC00388F8B /* RoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
